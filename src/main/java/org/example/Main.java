@@ -12,8 +12,8 @@ public class Main {
        // System.out.println(ChekPrime.chekPrime(907));
        // System.out.println(PrimeArray.sumPrimeArray(array));
        // System.out.println(PrimeArray.countPrime(array));
-        System.out.println(PrimeArray.maxNumArray(array));
-       // System.out.println(PrimeArray.maxEvenNumArray(array));
+       // System.out.println(PrimeArray.maxNumArray(array));
+        System.out.println(PrimeArray.maxEvenNumArray(array));
        // System.out.println(PrimeArray.sumPrimeDivOfNum(9));
     }
 }

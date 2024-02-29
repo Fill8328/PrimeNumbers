@@ -33,7 +33,7 @@ public class PrimeArray {
 
     public static Integer maxEvenNumArray(Integer[] array){
         // метод возвращает максимальное четное число в массиве
-        int maxNum = 0;
+        int maxNum = array[0];
         for (int i = 0; i < array.length; i++) {
             if (chekEvenNum(array[i])){
                 if (array[i]>maxNum)
