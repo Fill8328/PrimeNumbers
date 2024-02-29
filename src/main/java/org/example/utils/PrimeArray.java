@@ -22,7 +22,7 @@ public class PrimeArray {
     }
     public static Integer maxNumArray(Integer[] array){
         //метод возвращает максимальное число в массиве
-        int maxNum = 0;
+        int maxNum = array[0];
         for (int i = 0; i < array.length; i++) {
             if (array[i] > maxNum ){
                 maxNum = array[i];
