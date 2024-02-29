@@ -55,7 +55,7 @@ public class PrimeArray {
     }
     private static boolean chekEvenNum(Integer num){
         // проверка числа на то простое оно или нет
-        if (num % 2 !=0){
+        if (num % 2 != 0 || num == 0){
             return false;
         }else
         return true;
